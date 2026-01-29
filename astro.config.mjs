@@ -11,6 +11,7 @@ export default defineConfig({
 		// Startlight-specific config
 		starlight({
 			title: 'Elie\'s DevLog',
+			customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{ label: 'Schedule', autogenerate: { directory: 'schedule' }, },
 			],
