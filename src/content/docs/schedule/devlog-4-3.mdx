@@ -24,35 +24,47 @@ import { Aside } from '@astrojs/starlight/components';
 
 Use Node.js and MongoDB Atlas to create the back end for Big Feelings. Then publish your full-stack application on Vercel. Follow Modules 10.3 in Critical Web Design and [Module 10.4 on the CWD Wiki](https://criticalwebdesign.github.io/wiki/chapter-10/10-4-big-feelings/) to complete your DevLog.
 
-1. Fork the [criticalwebdesign/big-feelings-starter](https://github.com/criticalwebdesign/big-feelings-starter) and update it per Module 10.3. 
+1. Fork the [criticalwebdesign/big-feelings-starter](https://github.com/criticalwebdesign/big-feelings-starter) and update it per Module 10.3. [Repo](https://github.com/eliejerjees/big-feelings-starter)
 1. Modify the project structure, install dependencies, and run the project.
 1. Create a MongoDB Database (CWD 10.4)
 1. Create an `.ENV` file, add your connection credentials, and test your database connection (CWD 10.4)
 1. Add routes to get data from MongoDB (CWD 10.4)
 1. Allow Visitors to Submit Feelings (CWD 10.4) 
-1. Add an environment variable and deploy your project on Vercel. (CWD 10.4) 
+1. Add an environment variable and deploy your project on Vercel. (CWD 10.4) [Big Feelings](https://big-feelings-starter-neon.vercel.app/)
 1. Read 📚 [ICE Is Going on a Surveillance Shopping Spree](https://www.eff.org/deeplinks/2026/01/ice-going-surveillance-shopping-spree), EFF 2026. Post a reading response in your DevLog per information in the [Assignments](./#assignments).
     <Aside icon="starlight" title="Reading Reflection">
         <h4>Summary</h4>
         <p>
+            The article says ICE is expanding how much surveillance it can do because it now has way more funding and is buying technology from private companies. That includes tools to unlock phones, spyware, social media monitoring, facial recognition, license plate tracking, and big data systems like Palantir that combine information from different sources. The author argues this could create one of the biggest domestic surveillance systems in U.S. history and threatens civil liberties, especially for immigrants but also for regular citizens. The article also gives tips on how people can protect themselves and talks about lawsuits and advocacy efforts trying to push back against these practices.
         </p>
 
         <h4>Quote</h4>
         <p>
+            "On a long enough timeline, any surveillance tool you build will eventually be used by people you don’t like for reasons that you disagree with."
         </p>
 
         <h4>Comment</h4>
         <p>
+            The article really shows how modern surveillance is not just a government capability but an economy of private corporations, data brokers, and integrated platforms. That raises an important structural issue: once data collection infrastructures exist, mission creep becomes almost inevitable. Even if tools are initially justified for national security or crime prevention, the same systems can later be used for political monitoring or broader population control. The discussion of Palantir linking previously separated datasets is especially significant because it shows that the risk is not only surveillance itself but the aggregation of collected data into unified profiles.
         </p>
 
         <h4>Question</h4>
         <p>
+            If surveillance capabilities continue expanding faster than legal protections, how can people protect themselves from them?
         </p>
 
         <h4>Related Piece</h4>
         <p>
-            <img src=""></img>
+            This reading reminds me of the plot of Captain America The Winter Soldier. In the movie, an organization named SHIELD, which is believed to be good, decides to implement a tracking software to surveil the whole world in order to "stop terrorist attacks before they happen" by predicting them. Captain America is against this because he says it takes away the free will of people by constantly having an eye on them and predicting their actions. In the end it turns out SHIELD was compromised by an evil organization which wanted to use the surveillance to kill any of their opposition.
+            <img src="https://m.media-amazon.com/images/M/MV5BNWY1NjFmNDItZDhmOC00NjI1LWE0ZDItMTM0MjBjZThiOTQ2XkEyXkFqcGc@._V1_.jpg"></img>
         </p>
     </Aside>
 1. Write a reflection explaining what you did learned in your DevLog. Link to sources.
+    <p>
+    In this DevLog, I learned how to connect a frontend application to a backend server and database to create a full-stack project. I set up a Node.js and Express server, connected it to MongoDB Atlas using environment variables, and created API routes to store and retrieve data. I also learned how the frontend communicates with the backend by changing the base URL and sending requests with fetch. Overall, this project helped me understand the structure of a full-stack application and how to prepare it for deployment.
+
+    https://vercel.com/docs
+    https://www.npmjs.com/package/dotenv
+    https://www.mongodb.com/docs/atlas/
+    </p>
 1. Publish it on Vercel and turn it in by posting the direct link to this DevLog on Moodle
