@@ -1,0 +1,60 @@
+---
+# Frontmatter sections
+title: DevLog 5-3
+description: DevLog 5-3
+---
+import { Aside } from '@astrojs/starlight/components';
+
+## Outcomes
+
+### DevLog 5-3  
+
+#### Create an interactive sound experience
+
+1. Review the [Sound & Music page](/dig345-radical-software/tutorials/sound-music) to learn Tone.js and Strudel.
+1. Complete the Strudel [First Sounds](https://strudel.cc/workshop/first-sounds/) tutorial. Post a link to your finished REPL ✏️ here. [First Sounds REPL ](https://strudel.cc/#c2V0Y3BtKDEwMi80KQoKc291bmQoYApbLSAgLSAgb2ggLSBdIFstICAtICAtICBvaF0gWy0gIC0gIG9oIC0gXSBbb2ggLSAgLSAgLSBdLApbaGggaGggaGggaGhdIFtoaCBoaCoyIGhoIGhoXSBbaGggaGggaGggaGhdIFtoaCoyIGhoIGhoKjQgaGhdLApbLSAgY3AgLSAgLSBdIFstICAtICBjcCAtIF0gWy0gIGNwIC0gIC0gXSBbfiBjcCAtIGNwXSwKW2JkIC0gIC0gIGJkXSBbLSAgYmQgLSAgLSBdIFtiZCAtICBiZCAtIF0gWy0gIC0gIGJkIC0gXSwKWy0gIHJpbSAtICAtIF0gWy0gIC0gIHJpbSAtIF0gWy0gIHJpbSByaW0gLSBdIFstICAtICAtIHJpbV0KYCkuYmFuaygiUm9sYW5kVFI5MDkiKQ%3D%3D)
+1. Complete the Strudel [First Notes](https://strudel.cc/workshop/first-notes/) tutorial. Post a link to your finished REPL ✏️ here. [First Notes REPL](https://strudel.cc/#c2V0Y3BtKDcyKQoKJDogbm90ZSgiPFtjMiBjM10qNCBbYTEgYTJdKjQgW2YyIGYzXSo0IFtnMSBnMl0qND4iKQogIC5zb3VuZCgiZ21fc3ludGhfYmFzc18xIikKICAubHBmKDkwMCkKCiQ6IG4oYDwKWzAgMl0gWzQgfl0gWzIgNF0gWzcgfl0KWzAgM10gWzUgfl0gWzMgNV0gWzggfl0KWzAgMl0gWzQgN10gWzkgfl0gWzcgNF0KWzIgMF0gWzQgfl0gWzUgN10gWzQgfl0KPioyYCkKICAuc2NhbGUoIkM0Om1pbm9yIikKICAuc291bmQoImdtX2VsZWN0cmljX3BpYW5vXzEiKQoKJDogc291bmQoYApbLSAgLSAgb2ggLSBdIFstICAtICAtICBvaF0sCltoaCBoaCBoaCBoaF0gW2hoKjIgaGggaGgqNCBoaF0sClstICBjcCAtICAtIF0gWy0gIC0gIGNwIC0gXSwKW2JkIC0gIC0gIGJkXSBbLSAgYmQgLSAgLSBdCmApLmJhbmsoIlJvbGFuZFRSOTA5Iik%3D)
+1. Complete the Strudel [First Effects](https://strudel.cc/workshop/first-effects/) tutorial. Post a link to your finished REPL ✏️ here. [First Effects REPL](https://strudel.cc/#c2V0Y3BtKDcyKQoKJDogbm90ZSgiPFtjMiBjM10qNCBbYTEgYTJdKjQgW2YyIGYzXSo0IFtnMSBnMl0qND4iKQogIC5zb3VuZCgic2F3dG9vdGgiKQogIC5scGYoc2luZS5yYW5nZSgzMDAsIDE2MDApLnNsb3coNCkpCiAgLmdhaW4oMC45KQoKJDogbihgPApbMCAyXSBbNCB%2BXSBbMiA0XSBbNyB%2BXQpbMCAzXSBbNSB%2BXSBbMyA1XSBbOCB%2BXQpbMCAyXSBbNCA3XSBbOSB%2BXSBbNyA0XQpbMiAwXSBbNCB%2BXSBbNSA3XSBbNCB%2BXQo%2BKjJgKQogIC5zY2FsZSgiQzQ6bWlub3IiKQogIC5zb3VuZCgiZ21fZWxlY3RyaWNfcGlhbm9fMSIpCiAgLnJvb20oMC43KQogIC5kZWxheSgwLjI1KQogIC5nYWluKDAuNzUpCgokOiBzb3VuZChgClstICAtICBvaCAtIF0gWy0gIC0gIC0gIG9oXSwKW2hoIGhoIGhoIGhoXSBbaGgqMiBoaCBoaCo0IGhoXSwKWy0gIGNwIC0gIC0gXSBbLSAgLSAgY3AgLSBdLApbYmQgLSAgLSAgYmRdIFstICBiZCAtICAtIF0KYCkKICAuYmFuaygiUm9sYW5kVFI5MDkiKQogIC5yb29tKDAuMjUpCgokOiBzb3VuZCgiaGgqMTYiKQogIC5nYWluKCJbLjIgLjddKjgiKQogIC5wYW4oIjAuMiAwLjgiKQ%3D%3D)
+1. [Music Mouse Explained | Laurie Spiegel on Algorithmic Composition (1987 Archive)](https://www.youtube.com/watch?v=aJBDHxyLEHg) (27:38). Post a reading response in your DevLog per information in the [Assignments](./#assignments).
+    <Aside icon="starlight" title="Reading Reflection">
+        <h4>Summary</h4>
+        <p>
+            In the video, Laurie Spiegel explains Music Mouse, a software instrument she created for the Macintosh. Instead of using the computer only as an editor or sequencer, Music Mouse turns the computer into something that can be played live. The user controls the music through mouse movement, while the program helps generate harmonies and musical structure in real time. Spiegel designed the program to make music creation more accessible, allowing people to experiment with sound without needing deep technical or musical training.
+        </p>
+
+        <h4>Quote</h4>
+        <p>
+            "Unlike the majority of music software available out there, this is not an editor in anyway. This is actually a program which turns the Mac into an instrument which you play." - Laurie Spiegel
+        </p>
+
+        <h4>Comment</h4>
+        <p>
+            What interested me most is that Music Mouse treats composition more like navigating a system than manually writing every note. Instead of the computer replacing the musician, Spiegel designed rules and constraints that shape the output while the user still directs the performance. It feels similar to modern procedural or generative systems where creativity comes from interacting with the system itself rather than controlling every individual detail.
+        </p>
+
+        <h4>Question</h4>
+        <p>
+            How much should software help create music before it starts taking away from the artist's creativity and control?
+        </p>
+
+        <h4>Related Piece</h4>
+        <p>
+            Strudel is a good related technology because it also turns code into a live musical instrument. Like Music Mouse, Strudel is not just about writing music ahead of time. It lets the user perform, change, and experiment with sound in real time. Both tools show how software can make music creation more interactive and accessible, while still giving the user control over the final sound.
+        </p>
+    </Aside>
+1. Complete all five parts of the [Getting Started with Tone.js | Web Audio Tutorial - Pts 1-5](https://www.youtube.com/watch?v=ftGuDvm5zDQ&list=PLMPgoZdlPumfkA6iYubXHyrRtdIg9T3Na) (3:31, 6:37, 10:20, 5:59, 9:28). Post a link to your finished project online ✏️ here. [Tone.js tutorial](https://github.com/eliejerjees/tone.js-tutorial)
+1. Design and code an "interactive audio experience" that makes use of Tone.js. Consider using shapes, color, and other visuals in addition to sounds. This need not be fancy or polished, since you have less than a week to complete it. Try to have fun creating.
+1. Post designs mockups (pencil/paper, Figma, etc.) here. ✏️
+    <img src="/dig345-devlog/drum-pad.png"></img>
+1. Post links to your project, a video, and a 100-150 word statement about the concept and technology of your interactive audio experience ✏️ here.
+    <Aside icon="rocket" title="Project">
+        <p>
+            [drum-pads](https://drum-pads.vercel.app/)
+        </p>
+        <p>
+            This project is an interactive browser-based drum pad experience built with Tone.js, a JavaScript framework built on top of the Web Audio API for creating interactive music applications in the browser. The goal of the project was to create something simple, responsive, and fun to play with rather than a traditional music sequencer. Users can trigger different drum sounds through an interactive visual interface, allowing rhythm and experimentation to happen in real time. I focused on making the interaction feel immediate and physical, almost like a digital instrument instead of a standard webpage. Tone.js handled audio playback, timing, and sound management, while the front-end visuals were designed to react clearly to user input. The project explores how code, interaction, and sound can combine into a playful creative experience.
+        </p>
+        <video controls width="640" height="360">
+            <source src="/dig345-devlog/drum-demo.mp4" type="video/mp4" />
+        </video>
+    </Aside>
